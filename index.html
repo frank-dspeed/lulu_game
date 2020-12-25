@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <meta charset="utf-8">
+
+    <!-- The actual resolution of the NES is 256x240.
+         Ideally, we draw in this size and scale appropriately.-->
+    <title>Super Mario Bros</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width
+    <!--, initial-scale=1"-->
+    >
+    <link rel="stylesheet" href="/mario/css/game.css">
+        <script type="module">
+            import { User } from './user.js'
+            import './mario.js'
+          
+            document.querySelector('lulu-game').innerHTML = User();
+        </script>
+        </head>
+    <body>
+        <lulu-game></lulu-game>
+
+    </body>
+</html>

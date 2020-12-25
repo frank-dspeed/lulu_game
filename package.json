@@ -1,0 +1,11 @@
+{
+  "name": "lulu-game",
+  "version": "0.0.0-pre1",
+  "description": "A simple 80th game don't know what but we will find out",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Lemanschik <frank@lemanschik.com>",
+  "license": "Apache-2.0"
+}
